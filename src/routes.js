@@ -1,10 +1,9 @@
 const express = require("express");
+const NetProfitController = require("./controllers/NetProfitController");
 
 const routes = express.Router();
 
-routes.get("/", (req, resp) => {
-  console.log("Ok");
-  return resp.json({ message: "Ok" });
-});
+routes.get("/net-profit", NetProfitController.index);
+routes.put("/net-profit", NetProfitController.update);
 
 module.exports = routes;
