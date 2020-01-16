@@ -1,0 +1,8 @@
+{
+  "name": "controle-financeiro-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/osiris87/controle-financeiro-api.git",
+  "author": "Osiris <osiris.d.vasconcelos@accenture.com>",
+  "license": "MIT"
+}
