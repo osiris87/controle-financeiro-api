@@ -1,9 +1,9 @@
 const express = require("express");
-const NetProfitController = require("./controllers/NetProfitController");
+const NetProfitController = require("./controllers/NetProfit.controller");
 
 const routes = express.Router();
 
-routes.get("/net-profit", NetProfitController.index);
-routes.put("/net-profit", NetProfitController.update);
+routes.get("/net-profit", (req, resp) => NetProfitController.index(req, resp));
+routes.put("/net-profit", (req, resp) => NetProfitController.update(req, resp));
 
 module.exports = routes;
