@@ -4,5 +4,15 @@
   "main": "index.js",
   "repository": "https://github.com/osiris87/controle-financeiro-api.git",
   "author": "Osiris <osiris.d.vasconcelos@accenture.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
